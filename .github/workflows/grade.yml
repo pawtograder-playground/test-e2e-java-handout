@@ -25,7 +25,7 @@ on:
 jobs:
   grade:
     name: Submit and Grade Assignment
-    runs-on: ubuntu-latest # Staging... one day self-hosted...
+    runs-on: khoury-course-runners # Staging... one day self-hosted...
     # khoury-course-runners
     # khoury-course-runners provides 1CPU, 1.5GB RAM
     # khoury-course-runners-md provides 2CPU, 3GB RAM
